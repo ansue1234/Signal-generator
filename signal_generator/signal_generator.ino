@@ -49,7 +49,7 @@ void steps(){
 
 void mode2(){
  val = analogRead(1);
- hert = map(val,0,1023,100,3000);
+ hert = map(val,0,1023,100,3100);
  tone(9,hert);
  lcd.setCursor(0,1);
  lcd.print(hert);
